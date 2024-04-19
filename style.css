@@ -1,0 +1,161 @@
+/*IMPORTAÇÃO DEFONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+body{
+    margin:0px; /* Margen externa*/
+    padding:0px; /*Margen Interna*/
+    
+
+    background: #F2F2F2;
+
+    
+}
+
+/* MENU DE NAVEGAÇÃO PRINCIPAL*/
+#menu{ 
+    border: 1px  solid black;
+    background: #0C70F2;
+    padding-bottom: 0%;
+    padding-top: 0.5%;
+    width:auto; 
+    display: flex;
+    flex-direction: column;
+  
+}
+
+#principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.tempo {
+    display:flex;
+      
+
+}
+
+#principal  a{
+    font-family: var(--fonte-padrao);
+    font-size: 25px;
+    font-weight: 600px;
+    color: white;
+    align-items: center;
+    
+
+} 
+#principal h1{
+    font-family: var(--fonte-padrao);
+    font-size: 25px;
+    font-weight: 600px;
+    color: white;
+    margin-left: 25px;
+   
+
+}
+
+#direito a{
+    margin-right: 50px;
+    grid-auto-flow: column;
+    text-decoration: none;
+    
+    
+}
+#textoprincipal {
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: 300%;
+    text-align: left;
+    font-family: inherit;
+    
+}
+#textoprincipal img {
+    width: 40%;
+    display: flexbox;
+   
+
+    
+}
+
+/* Formulario */
+#formgeral{
+    color:rgb(8, 1, 1);
+    font-family: var(--fonte-padrao);
+    font-size: 30px;
+    width: 500px;
+    background-color: white;
+    margin-left: 650px;
+    padding: 60px;
+    margin-bottom: 35px;
+    margin-top: 150px;
+    border-radius: 15px;
+    
+    
+
+    
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 22px;
+
+}
+
+form input{
+    border-radius: 6px;
+    height: 35px;
+    border:0px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #F2F2F2E5;
+
+
+}
+
+/* DEFINIR AS QUATROS POSIÇÕES DOS INPUT CIMA, DIREITA,BAIXO e ESQUERDA*/
+form label{
+    margin: 10px 0px 10px 0px;
+}
+
+form input::placeholder{
+    color:rgba(57, 57,57, 0.5);
+}
+
+.checkbox-itens label{
+    font-size: 25px;
+}
+
+.checkbox-itens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input[type="checkbox"]{
+    transform: scale(1.5);
+}
+
+input[type="submit"]{
+    background-color: rgba(12, 112, 242, 0.9);
+    width: 100%;
+    height: 56px;
+    font-size: 32px;
+    color:rgb(7, 0, 0);
+    margin-top: 100px;
+    box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
+    
+
+}
+
+
+
+
+
+
+
