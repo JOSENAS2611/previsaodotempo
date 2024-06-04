@@ -1,4 +1,4 @@
-Comentários e Explicações do Matéria 2
+Comentários e Explicações sobre o codigo
 1.	Metadados e Bootstrap:
 •	Os metadados e links para estilos são incluídos no <head>, com o Bootstrap carregado a partir de uma CDN para estilização rápida.
 2.	Função getAddressByCep:
@@ -7,7 +7,7 @@ Comentários e Explicações do Matéria 2
 3.	Função getPrevisao:
 •	Busca a previsão do tempo usando a API Open-Meteo.
 •	Limpa o conteúdo anterior do elemento resposta.
-•	Exibe os dados de previsão do tempo (máxima, mínima, média e precipitação) apenas para o dia atual.
+•	Exibe os dados de previsão do tempo (máxima, mínima).
 4.	Geolocalização:
 •	A função getLocation verifica se a geolocalização é suportada pelo navegador e obtém a posição atual do usuário.
 •	A função showPosition exibe as coordenadas obtidas nos campos de latitude e longitude.
@@ -17,6 +17,6 @@ Comentários e Explicações do Matéria 2
 •	O corpo da página contém seções bem definidas para o cabeçalho, formulário de entrada, resultados da pesquisa e rodapé.
 •	O formulário permite a entrada de dados necessários para as consultas (CEP, latitude e longitude).
 Modificações Realizadas
-•	Exibição da Previsão do Dia Atual: O código foi modificado para exibir a previsão do tempo apenas para o dia da consulta, com dados de temperatura média, máxima e mínima.
+•	Exibição da Previsão dos proximos 7 dia inicio dia da consulta: O código foi modificado para exibir a previsão do tempo para os dias conta dia da  consulta, com dados de temperatura média, máxima e mínima.
 •	Comentários Adicionais: Adicionei comentários ao longo do código para explicar o que cada parte está fazendo, facilitando a compreensão e manutenção do código.
-
+Atualizações: Em 04 de Junho de 2024. Mudança do fundo da pagina.
