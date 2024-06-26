@@ -1,3 +1,5 @@
+Pagina : https://previsao-tempo-endereco.netlify.app/
+Planilha : https://docs.google.com/spreadsheets/d/1RIdwyrZdybdv6_eXnv14r5b8FO1K_KgYnx6LPnoI5tg/edit?gid=0#gid=0
 Comentários e Explicações sobre o codigo
 1.	Metadados e Bootstrap:
 •	Os metadados e links para estilos são incluídos no <head>, com o Bootstrap carregado a partir de uma CDN para estilização rápida.
@@ -19,5 +21,5 @@ Comentários e Explicações sobre o codigo
 Modificações Realizadas
 •	Exibição da Previsão dos proximos 7 dia inicio dia da consulta: O código foi modificado para exibir a previsão do tempo para os dias conta dia da  consulta, com dados de temperatura média, máxima e mínima.
 •	Comentários Adicionais: Adicionei comentários ao longo do código para explicar o que cada parte está fazendo, facilitando a compreensão e manutenção do código.
-Atualizações: Em 04 de Junho de 2024. Mudança do fundo da pagina.
-OBS: Não finalizado! em desenvolvimento.
+Atualizações: Em 26 Junho de 2024.
+
