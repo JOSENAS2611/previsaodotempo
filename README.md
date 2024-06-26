@@ -1,6 +1,6 @@
 Pagina : https://previsao-tempo-endereco.netlify.app/
 Planilha : https://docs.google.com/spreadsheets/d/1RIdwyrZdybdv6_eXnv14r5b8FO1K_KgYnx6LPnoI5tg/edit?gid=0#gid=0
-Comentários e Explicações sobre o codigo
+Comentários e Explicações sobre o codigo :
 1.	Metadados e Bootstrap:
 •	Os metadados e links para estilos são incluídos no <head>, com o Bootstrap carregado a partir de uma CDN para estilização rápida.
 2.	Função getAddressByCep:
