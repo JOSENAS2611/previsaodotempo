@@ -8,7 +8,7 @@
 }
 body{
    
-    background-image: url("imagem/ceu.svg");
+    background-color: #F2F2F2;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -237,10 +237,10 @@ button {
 
 #resposta {
     background-color: rgb(12,112,242);
-    width: 250%;
-    height: 300px;
-    text-align: 10px;
-    font-size: 40px;
+    width: 200px;
+    height: 250px;
+    text-align: 5px;
+    font-size: 30px;
     border-radius: 30px 30px 30px 30px;
 }
 
