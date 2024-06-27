@@ -94,7 +94,7 @@
 <body>
     <div class="menu">
         <nav id="principal">
-            <h1>Consulte o Tempo Agora</h1>
+            <h1>DncWeather</h1>
             <ul>
                 <a href="#">Endereços</a>
                 <a href="#">Previsão do tempo</a>
@@ -111,43 +111,47 @@
             <img src="imagem/nuvem.svg" alt="Imagem de nuvem">
         </div>
     </div>
-    <div id="formulario">
-        <form action="https://api.sheetmonkey.io/form/kWtaJDZSgqmUHgrGWhe" method="post"> 
+    <!-- FORMULARIO -->
+    <div class="container1">
+        <div id="centro">
+        <form method="post" action="https://api.sheetmonkey.io/form/kWtaJDZSgqmUHgrGWheYgp"> 
             <div class="form-group">
-                <label>Primeiro Nome:</label>
-                <input type="text" placeholder="Insira seu primeiro nome aqui">
+                <label for="Primeiro Nome:"> Nome: </label>
+                <input id="nome" type= text  placeholder="Insira seu primeiro nome aqui" required name="Name"/> 
             </div>
+
             <div class="form-group">
                 <label>E-mail:</label>
-                <input type="text" placeholder="Insira seu E-mail">
+                <input type="text" id="email" placeholder="Insira seu E-mail" required name="Email">
             </div>
+                
             <div class="form-group">
-                <label for="cep" class="col-sm-2 col-form-label">CEP</label>
-                <input type="text" id="cep" placeholder="Insira seu CEP">
+                <label>Digite o CEP:</label>
+                <input type="text" id="cep" placeholder="Insira seu CEP"name="CEP" required>
+            </div> 
+            
+                <h2>Digite a latitude e longitude para saber a previsão:</h2>
+            <div class="form-latlog">
+                <input type="text" id="latitude" placeholder="Latitude" name="Latitude" required>
+                <input type="text" id="longitude" placeholder="Longitude"name="Longitude" required>
             </div>
-            <div id="lat-long">
-                <div class="form-group">
-                    <label>Digite a latitude e longitude para saber a previsão:</label>
-                    <input type="text" id="latitude" placeholder="Latitude">
-                </div>
-                <div class="form-group">
-                    <input type="text" id="longitude" placeholder="Longitude">
-                </div>
-            </div>
-            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
-            <div class="form-group">
+                             
+            <div class="input-acessar">
+                <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
                 <button type="submit" onclick="chamarApis()">Acessar</button>
             </div>
-        </form>
+                
+        </div>
     </div>
-     
+     <!-- MENU BUSCA POR CEP-->
     <div class="container">
-        <h1>Resultado da busca por CEP:</h1>
-        <div id="menu-resul">
+        <h1>Resultado da busca por CEP: <img id="img1" src="imagem/imagen1.svg" alt="Sem imagem"></h1>
+        <div id="endereco">
             <ul>Rua</ul>
             <ul>Cidade</ul>
             <ul>UF</ul>
         </div>
+     <!-- RESULTADO DA BUSCA POR CEP -->
         <div id="resultado01">
             <div>
                 <input type="text" id="logradouro" readonly>
@@ -166,12 +170,14 @@
            
                 <img id="img" src="imagem/nuvem.svg" alt="Sem imagem">
          </div>
+     <!-- RESULTADO PESQUISA DO TEMPO -->
         <div class="resultado2" >
             <div id="resposta"class="w-500 p-8" Width 100></div>
         </div>
             
         </div>
     </div>
+     <!-- RODAPE -->
     <div id="rodape">
         <nav id="termo">
             <ul>
