@@ -6,12 +6,12 @@
     margin:0px; /* Margen externa*/
     padding:0px; /*Margen Interna*/
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif
+    font-family: 'Poppins', sans-serif
 }
 body{
-   
-    background-color: #F2F2F2
-      
+    background-image: url("imagem/CEU\ AZUL.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;      
 }
 
 /* MENU DE NAVEGAÇÃO PRINCIPAL*/
@@ -199,7 +199,7 @@ ul {
 #resultado01 {
     display: flex;
     justify-content: center;
-    background: #FFFFFF;
+    background: #ffffff;
     font-size: 20;
     width: auto;
     height: 72px;
@@ -214,7 +214,7 @@ ul {
 background-color: #FFFFFF;
 margin-top: 5%;
 margin-right: 100px;
-margin-left: 30%;
+margin-left: 23%;
 border: 0;
 font-size: 20px;
 text-align: center;

@@ -19,4 +19,4 @@ Comentários e Explicações sobre o codigo
 Modificações Realizadas
 •	Exibição da Previsão dos proximos 7 dia inicio dia da consulta: O código foi modificado para exibir a previsão do tempo para os dias conta dia da  consulta, com dados de temperatura média, máxima e mínima.
 •	Comentários Adicionais: Adicionei comentários ao longo do código para explicar o que cada parte está fazendo, facilitando a compreensão e manutenção do código.
-Atualizações: Em 26 Junho de 2024. Mudança do fundo da pagina e validação dos dados.
+Atualizações: Em 27 de julho de 2024. Mudança do fundo da pagina.Colocado uma imagem de fundo e validação do inputs (obrigando o preenchimento para concluir a consulta).
