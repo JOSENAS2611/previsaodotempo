@@ -84,6 +84,17 @@
             document.getElementById('longitude').value = position.coords.longitude;
         }
 
+        // Função para limpar os campos do formulário e a seção de resposta
+        function novaConsulta() {
+            document.getElementById('cep').value = '';
+            document.getElementById('uf').value = '';
+            document.getElementById('logradouro').value = '';
+            document.getElementById('cidade').value = '';
+            document.getElementById('latitude').value = '';
+            document.getElementById('longitude').value = '';
+            document.getElementById('resposta').innerHTML = '';
+        }
+
         // Ouvinte de evento para submissão do formulário
         document.addEventListener('DOMContentLoaded', function() {
             const form = document.querySelector('form');
@@ -94,6 +105,9 @@
                 getAddressByCep();
                 getPrevisao();
             });
+
+            // Adicionar evento para o botão de nova consulta
+            document.getElementById('novaConsultaBtn').addEventListener('click', novaConsulta);
         });
     </script>
 </head>
@@ -123,7 +137,7 @@
             <form method="post" action="https://api.sheetmonkey.io/form/kWtaJDZSgqmUHgrGWheYgp">
                 <div class="form-group">
                     <label for="Primeiro Nome:">Nome:</label>
-                    <input id="nome" type="text" placeholder="Insira seu primeiro nome aqui" required name="Name"/>
+                    <input type="nome" type="text" placeholder="Insira seu primeiro nome aqui" required name="Name"/>
                 </div>
 
                 <div class="form-group">
@@ -145,6 +159,7 @@
                 <div class="input-acessar">
                     <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
                     <button type="submit">Acessar</button>
+                    <button type="button" id="novaConsultaBtn">Nova Consulta</button>
                 </div>
             </form>
         </div>
@@ -198,4 +213,3 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
-    

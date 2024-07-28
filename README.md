@@ -17,6 +17,6 @@ Comentários e Explicações sobre o codigo
 •	O corpo da página contém seções bem definidas para o cabeçalho, formulário de entrada, resultados da pesquisa e rodapé.
 •	O formulário permite a entrada de dados necessários para as consultas (CEP, latitude e longitude).
 Modificações Realizadas
-•	Exibição da Previsão dos proximos 7 dia inicio dia da consulta: O código foi modificado para exibir a previsão do tempo para os dias conta dia da  consulta, com dados de temperatura máxima e mínima.
+•	Exibição da Previsão dos proximos 7 dia inicio dia da consulta: O código foi modificado para exibir a previsão do tempo para os dias conta dia da  consulta, com dados de temperatura média, máxima e mínima.
 •	Comentários Adicionais: Adicionei comentários ao longo do código para explicar o que cada parte está fazendo, facilitando a compreensão e manutenção do código.
-Atualizações: Em 26 juho e 27 julho de 2024. Mudança do fundo da pagina.Colocado uma imagem de fundo e validação do inputs (obrigando o preenchimento para concluir a consulta).
+Atualizações: Em 26 de junho e 27 de julho de 2024. Mudança do fundo da pagina.Colocado uma imagem de fundo e validação do inputs (obrigando o preenchimento para concluir a consulta) e inclusão botão de nova consulta.
